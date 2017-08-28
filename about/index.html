@@ -14,20 +14,18 @@
 <meta name="author" content="TMM" />
 
 
-    
-    
 
-
-<meta name="description" content="ֻ���벻�룬û���ܲ���">
+<meta name="description" content="Hello Everyone ! Welcome to my zone!">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Shero">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:title" content="Resume">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Shero">
-<meta property="og:description" content="ֻ���벻�룬û���ܲ���">
+<meta property="og:description" content="Hello Everyone ! Welcome to my zone!">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-26T04:26:48.282Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Shero">
-<meta name="twitter:description" content="ֻ���벻�룬û���ܲ���">
+<meta name="twitter:title" content="Resume">
+<meta name="twitter:description" content="Hello Everyone ! Welcome to my zone!">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -55,13 +53,11 @@
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <style> .article { opacity: 0;} </style>
-
 
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Shero</title>
+<title>Resume | Shero</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -70,7 +66,7 @@
     var yiliaConfig = {
         fancybox: true,
         animate: true,
-        isHome: true,
+        isHome: false,
         isPost: false,
         isArchive: false,
         isTag: false,
@@ -253,13 +249,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-studynote1 " class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/08/26/studynote1 /" class="article-date">
-      <time datetime="2017-08-26T02:26:05.026Z" itemprop="datePublished">2017-08-26</time>
+      <a href="/about/index.html" class="article-date">
+      <time datetime="2017-08-26T02:46:05.000Z" itemprop="datePublished">2017-08-26</time>
 </a>
 
 
@@ -273,80 +267,93 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/26/studynote1 /">Java集合类学习笔记</a>
+    <h1 class="article-title" itemprop="name">
+      Resume
     </h1>
   
 
       </header>
       
+      <div class="article-info article-info-post">
+        
+
+        
+        <div class="clearfix"></div>
+      </div>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p></p><p></p><h3>Collection接口和Map接口</h3><p></p><br><img src="/img/collection.jpg"><p></p>
-<p></p><h6>转载自：<a href="http://wilsonmar.com/1array.htm" target="_blank" rel="external">http://wilsonmar.com/1array.htm</a></h6><p></p>
-<h2 id="Collection接口"><a href="#Collection接口" class="headerlink" title="Collection接口"></a>Collection接口</h2><p></p><h3> list接口：</h3><p></p>
-<p><ul><h4>特点：</h4></ul></p>
-<p><li>是一维线性结构；</li></p>
-<p><li> list对象长短可变，且有序;</li></p>
-<p><li> list 存储的元素为对象类型；</li></p>
-<p><li> list的每个元素和数组一样都有下标，且下标都是从0开始的；</li></p>
-<p><li> list集合大小通过size（）获取;</li></p>
-<p><li> list元素使用add方法添加；</li></p>
-<p><li>list的元素使用get(下标)方法获取；</li></p>
-<p><li>list的元素可以重复，且可以为空值</li><br> <br>实现类：<br>ArrayList：底层是基于数组进行实现的，查询快，增删慢；   线程不安全，轻量级；<br>LinkedList：底层是基于链表实现的，增删快，查询慢；  线程不安全<br>Vector：底层是基于数组实现； 线程安全，重量级；</p>
-<p></p><h3> set接口：</h3><p></p>
-<p><ul><h4>特点：</h4></ul></p>
-<p><li>是一维线性结构；</li></p>
-<p><li> set对象长短可变</li></p>
-<p><li> sett元素使用add方法添加；</li></p>
-<p><li>lset的元素不可以重复</li><br> <br>实现类<br>HashSet：按hash算法来存储集合中的元素。因此具有很好的存储和查找性能；<br>     判断两个元素的标准是两个元素的equals方法比较相等，同时两个对象的hasCode()方法返回值也相等。<br>     无序，存入顺序和读取顺序不一致；<br>     可以保存null值；</p>
-<p>LinkedHashSet:  底层是基于链表实现的；<br>    有序；<br>    可以存入null值；</p>
-<p>TreeSet：底层结构是二叉树实现的；<br>    无序；<br>    可以存入null值<br>    可以对存入的实现了comparable接口的对象类型进行自动排序</p>
-<h2 id="Map接口"><a href="#Map接口" class="headerlink" title="Map接口"></a>Map接口</h2><p><ul><b>特点：</b></ul></p>
-<p><li>map中存储的是键值对（使用Entry描述键值对）</li></p>
-<p><li> Entry键值对包括名字Key和值Value,且一一对应；</li></p>
-<p><li> 一般Key使用String类型，Value使用对象类型</li></p>
-<p><li>Map的Key值不可以重复</li><br> <br> 实现类<br> HashMap:基于hash散列算法实现；<br>     不是线程安全类；<br>    可以存入null值；</p>
-<p> LinkedHashMap : 底层是基于链表实现的；<br>    不是线程安全类；<br>    有序；<br>    可以存入null值；</p>
-<p> TreeMap :底层结构是树型结构实现的；<br>    不是线程安全类；<br>    无序；<br>    不可以存入null值；</p>
-<p> HashTable:基于hash散列算法实现；<br>    是线程安全类；<br>    无序的；<br>    可以存入null值；</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Study-Notes/">Study Notes</a>
-    </div>
+              <style>
+    .article-meta { display: none; }
+    #container .article .article-title { padding-right: 0; }
+    .article-header {
+        padding: 0;
+        padding-top: 26px;
+        border-left: none;
+        text-align: center;
+    }
+    .article-header:hover { border-left: none; }
+    .article-title { font-size: 1.6em }
+    .article-entry hr { margin: 0;}
+    .article-meta,
+    #container .article-info-post.article-info { display: none;}
+    #container .article .article-title { padding: 0; }
+</style>
 
 
+          
+        <h2 id="Hello-Everyone-Welcome-to-my-zone"><a href="#Hello-Everyone-Welcome-to-my-zone" class="headerlink" title="Hello Everyone ! Welcome to my zone!"></a>Hello Everyone ! Welcome to my zone!</h2>
       
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/集合/">集合</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
     </div>
     
   </div>
+  
+    
+
+
   
 </article>
 
 
 
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"Resume　| Shero　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
 
 
 
 
 
 
-  
-  
+
+    
+
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">

@@ -14,14 +14,11 @@
 <meta name="author" content="TMM" />
 
 
-    
-    
-
 
 <meta name="description" content="ֻ���벻�룬û���ܲ���">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Shero">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/集合/index.html">
 <meta property="og:site_name" content="Shero">
 <meta property="og:description" content="ֻ���벻�룬û���ܲ���">
 <meta property="og:locale" content="zh-Hans">
@@ -55,13 +52,11 @@
 <link rel="stylesheet" href="/css/style.css">
 
 
-    <style> .article { opacity: 0;} </style>
-
 
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Shero</title>
+<title>Tag: 集合 | Shero</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -70,10 +65,10 @@
     var yiliaConfig = {
         fancybox: true,
         animate: true,
-        isHome: true,
+        isHome: false,
         isPost: false,
         isArchive: false,
-        isTag: false,
+        isTag: true,
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
@@ -255,98 +250,58 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-studynote1 " class="article article-type-post" itemscope itemprop="blogPost">
   
-    <div class="article-meta">
-      <a href="/2017/08/26/studynote1 /" class="article-date">
-      <time datetime="2017-08-26T02:26:05.026Z" itemprop="datePublished">2017-08-26</time>
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+          <div class="article-meta">
+              <a href="/2017/08/26/studynote1 /" class="archive-article-date">
+      <time datetime="2017-08-26T02:26:05.026Z" itemprop="datePublished">08-26</time>
 </a>
 
 
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
+        </div>
+         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/26/studynote1 /">Java集合类学习笔记</a>
+      <a class="archive-article-title" href="/2017/08/26/studynote1 /">Java集合类学习笔记</a>
     </h1>
   
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="article-info info-on-archive">
           
-        <p></p><p></p><h3>Collection接口和Map接口</h3><p></p><br><img src="/img/collection.jpg"><p></p>
-<p></p><h6>转载自：<a href="http://wilsonmar.com/1array.htm" target="_blank" rel="external">http://wilsonmar.com/1array.htm</a></h6><p></p>
-<h2 id="Collection接口"><a href="#Collection接口" class="headerlink" title="Collection接口"></a>Collection接口</h2><p></p><h3> list接口：</h3><p></p>
-<p><ul><h4>特点：</h4></ul></p>
-<p><li>是一维线性结构；</li></p>
-<p><li> list对象长短可变，且有序;</li></p>
-<p><li> list 存储的元素为对象类型；</li></p>
-<p><li> list的每个元素和数组一样都有下标，且下标都是从0开始的；</li></p>
-<p><li> list集合大小通过size（）获取;</li></p>
-<p><li> list元素使用add方法添加；</li></p>
-<p><li>list的元素使用get(下标)方法获取；</li></p>
-<p><li>list的元素可以重复，且可以为空值</li><br> <br>实现类：<br>ArrayList：底层是基于数组进行实现的，查询快，增删慢；   线程不安全，轻量级；<br>LinkedList：底层是基于链表实现的，增删快，查询慢；  线程不安全<br>Vector：底层是基于数组实现； 线程安全，重量级；</p>
-<p></p><h3> set接口：</h3><p></p>
-<p><ul><h4>特点：</h4></ul></p>
-<p><li>是一维线性结构；</li></p>
-<p><li> set对象长短可变</li></p>
-<p><li> sett元素使用add方法添加；</li></p>
-<p><li>lset的元素不可以重复</li><br> <br>实现类<br>HashSet：按hash算法来存储集合中的元素。因此具有很好的存储和查找性能；<br>     判断两个元素的标准是两个元素的equals方法比较相等，同时两个对象的hasCode()方法返回值也相等。<br>     无序，存入顺序和读取顺序不一致；<br>     可以保存null值；</p>
-<p>LinkedHashSet:  底层是基于链表实现的；<br>    有序；<br>    可以存入null值；</p>
-<p>TreeSet：底层结构是二叉树实现的；<br>    无序；<br>    可以存入null值<br>    可以对存入的实现了comparable接口的对象类型进行自动排序</p>
-<h2 id="Map接口"><a href="#Map接口" class="headerlink" title="Map接口"></a>Map接口</h2><p><ul><b>特点：</b></ul></p>
-<p><li>map中存储的是键值对（使用Entry描述键值对）</li></p>
-<p><li> Entry键值对包括名字Key和值Value,且一一对应；</li></p>
-<p><li> 一般Key使用String类型，Value使用对象类型</li></p>
-<p><li>Map的Key值不可以重复</li><br> <br> 实现类<br> HashMap:基于hash散列算法实现；<br>     不是线程安全类；<br>    可以存入null值；</p>
-<p> LinkedHashMap : 底层是基于链表实现的；<br>    不是线程安全类；<br>    有序；<br>    可以存入null值；</p>
-<p> TreeMap :底层结构是树型结构实现的；<br>    不是线程安全类；<br>    无序；<br>    不可以存入null值；</p>
-<p> HashTable:基于hash散列算法实现；<br>    是线程安全类；<br>    无序的；<br>    可以存入null值；</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
     <div class="article-category tagcloud">
     <a class="article-category-link" href="/categories/Study-Notes/">Study Notes</a>
     </div>
 
 
-      
+          
     <div class="article-tag tagcloud">
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/集合/">集合</a></li></ul>
     </div>
 
-      
-      <div class="clearfix"></div>
-    </div>
-    
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
-  
 </article>
-
-
-
-
-
-
-
-
-
   
   
+    </div></section>
+  
+
+    
+
 </div>
       <footer id="footer">
     <div class="outer">
